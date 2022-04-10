@@ -1,21 +1,15 @@
 #include<iostream>
+#include<string.h>
 using namespace std;
-int main() {
-    float bmi, w, h;
-    cin >> w;
-    cin >> h;
-    bmi = w/(h*h);
-    if (bmi<18.5)
-        cout << "thinness";
-    else if (bmi<25 && bmi>=18.5)
-        cout << "normal";
-    else if (bmi>=25 && bmi<30)
-        cout << "overweight";
-    else if (bmi<35 && bmi>=30)
-        cout << "obese 1";
-    else if (bmi>=35 && bmi<40)
-        cout << "obese 2";
-    else 
-        cout << "obese 3";
+int main()
+{
+    char str[30],ch;
+    fflush(stdin);
+    gets(str);
+    cin>>ch; 
+    int dem=0;
+    for (int i=0;i<strlen(str);i++)
+        if(str[i]==ch) dem++;
+	cout << dem;
     return 0;
 }
