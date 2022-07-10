@@ -1,0 +1,4 @@
+1 2 3 4 5 
+1 2 3 4 5 
+Tong cac phan tu co tri tuyet doi nho hon 6 la: 15
+1 2 3 4 
